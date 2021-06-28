@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	overflow: hidden;
+}
+
+/*video*/
+.video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+
+.bg1 {
+		position: absolute;
+		background:linear-gradient(#FFF,#6b8eae,#003c74,#002a54,#000515,#002a54,#6b8eae,#FFF);
+		top: 450px;
+		width: 100%;
+		height: 4900px;
+		margin: 56vw auto;
+    padding:  0px;
+}
+
+
+.bg2{
+		position: absolute;
+		background:linear-gradient(#FFF,#000,#000);
+		top:6500px;
+		width: 100%;
+		height: 1500px;
+		margin: 56vw auto;
+		padding: 0;
+}
+
+.bg3{
+		position: absolute;
+		background:linear-gradient(#FFF,#6b8eae,#003c74,#002a54,#000515,#FFF);
+		top:10500px;
+		width: 100%;
+		height: 6080px;
+		margin: 56vw auto;
+		padding: 0;
+}
+
+.bg4 {
+		position: absolute;
+		background-image: image(img/goldfish.png);
+		top: 10000px;
+		width: 100%;
+		/*height: 600px;*/
+		margin: 56vw auto;
+    padding:  0px;
+}
+
+.img-1{
+	position: absolute;
+	margin: 56vw auto;
+	right:18%;
+	width: 60%;
+	height: 60%;
+	top:5500px;
+	margin-left:-600px;
+}
+
+.img-2{
+	position: absolute;
+	max-width: 675px;
+	margin: 56vw auto;
+	left:54%;
+	top:9400px;
+	margin-left:-600px;
+	text-align:center;
+}
+
+.img-3{
+	position: absolute;
+	margin: 56vw auto;
+	left:54%;
+	top:12090px;
+	margin-left:-600px;
+	text-align:center;
+	opacity: 0.8;
+}
+
+.img-4{
+	position: absolute;
+	margin: 56vw auto;
+	left:60%;
+	top:12700px;
+	margin-left:-600px;
+	text-align:center;
+	opacity: 0.8;
+}
+
+.img-5{
+	position: absolute;
+	margin: 56vw auto;
+	left: 47%;
+	top:13150px;
+	margin-left:-600px;
+	text-align:center;
+	opacity: 0.8;
+}
+
+
+.box_tate{
+	position: absolute;
+	-ms-writing-mode: tb-rl;
+ 	writing-mode: vertical-rl;
+	line-height: 45px;
+	max-width: 675px;
+	margin: 56vw auto;
+}
+
+.box_yoko{
+	position: absolute;
+	line-height: 45px;
+	max-width: 675px;
+	margin: 56vw auto;
+}
+
+#box1{
+	top: 1250px;
+	right:15%;
+  height:700px;
+}
+
+#box2{
+	color: #1a1a1a;
+	top:1750px;
+	left:20%;
+  height:300px;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px #fff;
+}
+
+#box3{
+	top: 2300px;
+	left:10%;
+  height:610px;
+	color: #999;
+}
+
+#box4{/*呼吸が止まる*/
+	top: 3200px;
+	left:43%;
+  height:100px;
+	font-size: 40px;
+	color: #FFF;
+}
+
+#box5{
+	top: 3650px;
+	/*right:10%;*/
+  height:700px;
+	text-align: right;
+	color: #999;
+}
+
+#box6{/*彼女もまた*/
+	top: 4500px;
+	left:58%;
+  height:700px;
+	color:333333;
+}
+
+#box7{
+	top: 5100px;
+	left:30%;
+  height:700px;
+}
+
+#box8{
+	top: 6000px;
+	left:10%;
+  height:700px;
+}
+
+#box9{/*たまらなくなって*/
+	color: #666666;
+	top: 7000px;
+	left:50%;
+  height:300px;
+}
+
+#box10{
+	color: gray;
+	top: 7500px;
+	left:35%;
+  height:300px;
+	text-align:center
+}
+
+#box11{
+	top: 8300px;
+	left:50%;
+  height:10px;
+}
+
+#box12{
+	top: 8600px;
+	left:30%;
+  height:700px;
+  background:
+      linear-gradient(217deg, rgba(44,79,84,.8), rgba(153,132,89,0) 70.71%),
+      linear-gradient(127deg, rgba(68,97,123,.8), rgba(56,180,139,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,128,.8), rgba(5,11,26,0) 70.71%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+}
+
+
+#box13{/*雨はいっそう*/
+	top: 10600px;
+	left:60%;
+  height:550px;
+}
+
+#box14{
+	top: 11500px;
+	left:5%;
+  height:300px;
+}
+
+#box15{
+	top: 11900px;
+	right:10%;
+  height:300px;
+	line-height: 200px;
+	text-align: right;
+}
+
+#box16{
+	color: #FFF;
+	top: 14000px;
+	left:50%;
+  height:100px;
+	font-size: 10px
+}
+
+#box17{
+	top: 14300px;
+	left:50%;
+  height:1000px;
+}
+
+#box18{
+	top: 15000px;
+	left:15%;
+  height:300px;
+}
+
+#box19{/*朱李の家が*/
+	top: 15700px;
+	left:30%;
+  height:730px;
+	line-height: 100px;
+	background:linear-gradient(#FFF,gray);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	text-align:center
+}
+
+#box20{
+	top: 16700px;
+	left:33%;
+  height:700px;
+}
+
+#box21{
+	top: 17500px;
+	left:36%;
+  height:100px;
+}
+
+#box22{
+	top: 17900px;
+	right:20%;
+  height:300px;
+}
+
+#box23{
+	top: 18200px;
+	left:20%;
+  height:250px;
+}
+
+#box24{
+	top: 19000px;
+	left:10%;
+  height:300px;
+}
+
+#box25{
+	top: 20000px;
+	right:15%;
+  height:700px;
+}
+
+#box26{
+	top: 21000px;
+	left:32%;
+  height:100px;
+}
+
+#box27{
+	top: 22000px;
+	left:10%;
+  height:1000px;
+}
+
+#box28{
+	top: 25000px;
+	left:50%;
+  height:300px;
+}
+
+#box29{
+	top: 27000px;
+	left:20%;
+  height:500px;
+}
+
+#box30{
+	top: 27500px;
+	left:60%;
+  height:1000px;
+}
